@@ -1,0 +1,27 @@
+<html>
+<head>
+<title> Departmental store/add items </title>
+<style type="html/css">
+td{
+font-size:20px;
+font-family:"Times New Roman", Times, serif;
+}
+</style>
+</head>
+<body style="font-size:20px;margin-left:10% ;">
+
+<h1 align="center" style="color:black;"> Welcome to Departmental Store<h1>
+<h2 align="center" style="color:black;"> <b>Add Items<b></h2>
+<form name="additem" method="post" action="addcgi.pl">
+<table width="60%" height="60%" border="5" align="center" cellpadding="2" cellspacing="2" bordercolor="#FFFFFF" bgcolor="pink" >
+<tr> <td> itemname</td><td><input type="text" name="itemname"></td></tr>
+<tr> <td>itemid</td><td><input type="number" name="itemid"></td></tr>
+<tr> <td> Price</td><td><input type="number" name="price"></td></tr>
+<tr> <td> packeddate</td><td><input type="date" name="pdate"></td></tr>
+<tr> <td> expirydate</td><td><input type="date" name="edate"></td></tr>
+
+<tr> <td> <input type="submit" value="additem"></td></tr>
+</table>
+</form>
+</body>
+</html>
